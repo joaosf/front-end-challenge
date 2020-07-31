@@ -1,45 +1,40 @@
 # Bravosul Front-End Challenge
 
-O App consiste na necessidade de atender um pequeno comércio com um sistema simples de controle de produtos:
+The AngularApp consists of the need to serve a small business with a simple product control system:
 
-Criar um app com as seguintes telas:
- - Autenticação, pública;
- - Lista de produtos, com acesso restrito;
- - Criação de produtos, com acesso restrito;
- - Edição de produtos, com acesso restrito; 
- - Modal de exclusão, com acesso restrito;
- - Tela exibindo apenas produtos ativados, pública;
- - Tela descrevendo como como rodar sua aplicação (seja criativo), pública.
+Create an application with the following features:
+* Authentication, public;
+* Product CRUD, with restrict access;
+* Page showing only active products, public;
+* Page describing how to run your application (be creative), public.
 
-Qualquer funcionalidade extra é bem vinda para agregar na solução básica proposta.
-O layout é por sua conta. A arquitetura é por sua conta, seja esperto.
-Você será avaliado pela qualidade do código, pela modularidade, pela legibilidade, pela criatividade, pela quantidade de funcionalidades básicas e extra.
+Any extra features is welcome to add to the proposed basic solution. The layout is up to you. Architecture is up to you, be smart. You will be evaluated by the quality of the code, the modularity, the readability, the creativity, the amount of basic and extra features.
 
-# Instruções:
+# Instructions:
 
-- Utilizar `Angular 2+`;
-- Utilizar `bootstrap 4+` para construção do layout;
-- Não tenha pressa! Iremos avaliar a qualidade do seu código, mesmo incompleto e principalmente a sua semântica.
+* With `Angular 2+`;
+* With `bootstrap 4+` for layouts;
+* Take your time! We will evaluate the quality of your code, even incomplete and mainly its semantics.
 
-# Ganhe pontos extras por:
-  - Testes unitários;
-  - Código limpo e organização;
-  - Documentação de código;
-  - Documentação do projeto (readme);
+# Extra points:
+* Unit testing;
+* Clean code and organization;
+* Code documentation;
+* Project documentation (readme);
   
-# Prazo de entrega?
-48 horas
+# Deadline?
+48 hours
 
-# Como entregar?
-O código deve ser entregue em um repositório Git Público,
+# How to delivery?
+The code must be delivered to a Public Git repository
 
 # Endpoints
-#### URL Base
+#### Base URL
 ```sh
 https://bravosul-app.herokuapp.com/
 ```
 
-#### API de autenticação
+#### Authentication API
 ```sh
 /auth/local
 ```
@@ -61,7 +56,7 @@ Response
     }
 }
 ```
-#### API de produtos
+#### Products API
 | Method | Path | Description | Permission| 
 | ------ | ------ | ------ | ------ |
 | GET | `/products` | Get a list of products | Public |
@@ -73,7 +68,7 @@ Response
 
 #### Create Product
 
-Você deve usar o JWT na solicitação para dizer que pode criar um produto.
+The request must use JWT to can create a product.
 
 Request POST `https://bravosul-app.herokuapp.com/products`
 ```sh
