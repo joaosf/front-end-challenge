@@ -17,8 +17,6 @@ Você será avaliado pela qualidade do código, pela modularidade, pela legibili
 
 # Instruções:
 
-- Utilizar `Angular 2+`;
-- Utilizar `bootstrap 4+` para construção do layout;
 - Não tenha pressa! Iremos avaliar a qualidade do seu código, mesmo incompleto e principalmente a sua semântica.
 
 # Ganhe pontos extras por:
